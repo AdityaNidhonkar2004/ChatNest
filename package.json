@@ -1,0 +1,25 @@
+{
+  "name": "chatnest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": " nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaNidhonkar2004/ChatNest.git"
+  },
+  "author": "Aditya Nidhonkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaNidhonkar2004/ChatNest/issues"
+  },
+  "homepage": "https://github.com/AdityaNidhonkar2004/ChatNest#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
